@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeu Devine le Nombre - Devinez un nombre entre 1 et 100">
+    <title>🎲 Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎲 Devine le Nombre</h1>
+            <p class="subtitle">J'ai choisi un nombre entre 1 et 100. Peux-tu le deviner ?</p>
+        </header>
+
+        <main class="game-area">
+            <!-- Zone d'affichage -->
+            <div class="display-section">
+                <div class="message-box" id="messageBox">
+                    🎯 Fais ta première tentative !
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Essais</span>
+                        <span class="stat-value" id="attempts">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Meilleur Score</span>
+                        <span class="stat-value" id="bestScore">-</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Indice</span>
+                        <span class="stat-value" id="range">1-100</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zone de saisie -->
+            <div class="input-section">
+                <input 
+                    type="number" 
+                    id="guessInput" 
+                    placeholder="Entre ton nombre..." 
+                    min="1" 
+                    max="100"
+                    autofocus
+                >
+                <button id="guessBtn" class="btn btn-primary">
+                    <span>Deviner</span>
+                    <span class="btn-icon">🎯</span>
+                </button>
+            </div>
+
+            <!-- Zone des tentatives précédentes -->
+            <div class="history-section">
+                <h3>📋 Historique des tentatives</h3>
+                <div id="historyList" class="history-list">
+                    <p class="empty-history">Aucune tentative pour le moment</p>
+                </div>
+            </div>
+
+            <!-- Boutons d'action -->
+            <div class="action-buttons">
+                <button id="newGameBtn" class="btn btn-secondary">
+                    🔄 Nouvelle Partie
+                </button>
+                <button id="hintBtn" class="btn btn-hint" title="Consomme 2 essais">
+                    💡 Indice (-2 essais)
+                </button>
+            </div>
+
+            <!-- Modal de victoire -->
+            <div id="victoryModal" class="modal hidden">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>🎉 Félicitations !</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p class="victory-message" id="victoryMessage"></p>
+                        <div class="victory-stats">
+                            <div class="victory-stat">
+                                <span class="victory-label">Nombre à trouver</span>
+                                <span class="victory-value" id="victoryNumber"></span>
+                            </div>
+                            <div class="victory-stat">
+                                <span class="victory-label">Essais utilisés</span>
+                                <span class="victory-value" id="victoryAttempts"></span>
+                            </div>
+                            <div class="victory-stat">
+                                <span class="victory-label">Temps écoulé</span>
+                                <span class="victory-value" id="victoryTime"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="playAgainBtn" class="btn btn-primary">
+                            🎮 Rejouer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Créé par Adam Beloucif | <a href="https://github.com/Adam-Blf/Guess-The-Number" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
