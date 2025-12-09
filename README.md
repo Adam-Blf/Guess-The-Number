@@ -1,3 +1,11 @@
+Dernier commit: 23/11/2025 | Langage principal: CSS | Nombre de langages: 3
+
+Construit avec les outils et technologies : 
+CSS, JavaScript, HTML
+
+🇫🇷 Français | 🇬🇧 Anglais | 🇪🇸 Espagnol | 🇮🇹 Italien | 🇵🇹 Portugais | 🇷🇺 Russe | 🇩🇪 Allemand | 🇹🇷 Turc
+
+
 # 🎲 Guess The Number
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
