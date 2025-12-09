@@ -3,6 +3,19 @@
 
 ![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
+## 📝 Description
+Interactive number guessing game with hints, attempt tracking, victory modal, and best score persistence. Test your intuition!
+
+## ⚡ Fonctionnalités
+- Smart hint system with penalties
+- Attempt counter and history
+- Victory modal with performance rating
+- Best score persistence
+- Range indicator
+- Responsive UI
+- ---
+
+
 ### Construit avec les outils et technologies : 
 
 ![CSS](https://img.shields.io/badge/-CSS-0080ff?style=flat) ![JavaScript](https://img.shields.io/badge/-JavaScript-0080ff?style=flat) ![HTML](https://img.shields.io/badge/-HTML-0080ff?style=flat)
