@@ -1,18 +1,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adambeloucif/) ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Adam-Blf.Guess-The-Number)
 
-![Dernier commit](https://img.shields.io/badge/Dernier%20commit-09/12/2025-brightgreen) ![Langage principal](https://img.shields.io/badge/Langage%20principal-CSS-blue) ![Nombre de langages](https://img.shields.io/badge/Nombre%20de%20langages-3-orange)
+
+
+![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/Guess-The-Number?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
 ### Construit avec les outils et technologies : 
-![CSS](https://img.shields.io/badge/-CSS-lightgrey) ![JavaScript](https://img.shields.io/badge/-JavaScript-lightgrey) ![HTML](https://img.shields.io/badge/-HTML-lightgrey)
 
 🇫🇷 Français | 🇬🇧 Anglais | 🇪🇸 Espagnol | 🇮🇹 Italien | 🇵🇹 Portugais | 🇷🇺 Russe | 🇩🇪 Allemand | 🇹🇷 Turc
 
 # 🎲 Guess The Number
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > Jeu interactif "Devine le Nombre" - Devinez un nombre entre 1 et 100 avec des indices !
 
