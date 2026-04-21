@@ -24,6 +24,12 @@ Interactive number guessing game with hints, attempt tracking, victory modal, an
 
 # 🎲 Guess The Number
 
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![GH Pages](https://img.shields.io/badge/play-GH_Pages-222?logo=github&logoColor=white)
+
 > Jeu interactif "Devine le Nombre" - Devinez un nombre entre 1 et 100 avec des indices !
 
 [🎮 Jouer Maintenant](https://adam-blf.github.io/Guess-The-Number/) | [📖 Documentation](#fonctionnalités)
