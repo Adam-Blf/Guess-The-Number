@@ -17,6 +17,24 @@
 
 [🎮 Jouer Maintenant](https://adam-blf.github.io/Guess-The-Number/) | [📖 Documentation](#fonctionnalités)
 
+## Architecture
+
+```mermaid
+flowchart TB
+    A["index.html<br/>structure · saisie · modal victoire"]
+    B["style.css<br/>animations · grid · responsive"]
+    C["script.js<br/>logique de jeu vanilla ES6"]
+    D["Etat de partie<br/>nombre secret · essais · plage min-max"]
+    E["Systeme d'indices<br/>plus grand · plus petit · indice payant"]
+    F["LocalStorage<br/>persistance meilleur score"]
+    A --> C
+    B --> A
+    C --> D
+    D --> E
+    E --> A
+    D --> F
+```
+
 ---
 
 ## 📝 Description
