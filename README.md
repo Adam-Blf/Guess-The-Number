@@ -21,11 +21,11 @@
 
 ```mermaid
 flowchart TB
-    A["index.html<br/>structure · saisie · modal victoire"]
-    B["style.css<br/>animations · grid · responsive"]
+    A["index.html<br/>structure - saisie - modal victoire"]
+    B["style.css<br/>animations - grid - responsive"]
     C["script.js<br/>logique de jeu vanilla ES6"]
-    D["Etat de partie<br/>nombre secret · essais · plage min-max"]
-    E["Systeme d'indices<br/>plus grand · plus petit · indice payant"]
+    D["Etat de partie<br/>nombre secret - essais - plage min-max"]
+    E["Systeme d'indices<br/>plus grand - plus petit - indice payant"]
     F["LocalStorage<br/>persistance meilleur score"]
     A --> C
     B --> A
@@ -229,7 +229,7 @@ Made with ❤️ and JavaScript
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a> · <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a> - <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
 </p>
 
 
